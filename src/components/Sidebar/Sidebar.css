@@ -30,3 +30,16 @@
 .Sidebar .logo span>span{
     color: var(--pink);
 }
+
+.menu{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu .menuItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
