@@ -1,0 +1,32 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 4rem;
+    transition: 300 all ease;
+}
+
+.Sidebar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    font-weight: 700;
+    font-size: 22px;
+    height: 5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Sidebar .logo:hover{
+    transform: scale(1.1);
+}
+
+.Sidebar .logo img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.Sidebar .logo span>span{
+    color: var(--pink);
+}

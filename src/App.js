@@ -7,6 +7,8 @@ const App = () => {
     <div className='App'>
       <div className="AppGlass">
         <Sidebar></Sidebar>
+        <div>Slot 2</div>
+        <div>Slot 3</div>
       </div>
     </div>
   );
