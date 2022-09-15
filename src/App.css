@@ -9,4 +9,40 @@
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
   --activeItem: #f799a354;
+
+  --colour-first: #8d88f1;
+  --colour-second: #74b9ff;
+  --colour-third: #f3a7a7;
+}
+
+body{
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App{
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(106.37deg,
+              var(--colour-first),
+              var(--colour-second),
+              var(--colour-third));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AppGlass{
+  display: grid;
+  height: 96%;
+  width: 96%;
+  border-radius: 2rem;
+  box-shadow: rgba(128, 128, 128, 0.1) 5px 5px 20px;
+  background-color: var(--glass);
+  overflow: hidden;
+  grid-template-columns: 11rem auto 20rem;
 }
