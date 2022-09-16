@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import MainDash from './components/MainDash/MainDash';
 import Sidebar from './components/Sidebar/Sidebar';
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
     <div className='App'>
       <div className="AppGlass">
         <Sidebar></Sidebar>
-        <div>Slot 2</div>
+        <MainDash></MainDash>
         <div>Slot 3</div>
       </div>
     </div>
