@@ -24,7 +24,10 @@ const CompactCard = ({param}) => {
     const Png=param.card.png;
     console.log(Png);
     return (
-        <div className='CompactCard'>
+        <div className='CompactCard' style={{
+            background: param.card.color.backGround,
+            boxShadow: param.card.color.boxShadow,
+          }}>
             <div className="radialBar">
                 <CircularProgressbar value={param.card.barValue} text={`${param.card.barValue}%`}></CircularProgressbar>
             </div>
