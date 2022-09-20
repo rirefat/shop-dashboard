@@ -30,10 +30,11 @@ const CompactCard = ({param}) => {
           }}>
             <div className="radialBar">
                 <CircularProgressbar value={param.card.barValue} text={`${param.card.barValue}%`}></CircularProgressbar>
+                <span>{param.card.title}</span>
             </div>
             <div className="detail">
                 <Png/>
-                <span>${param.card.barValue}</span>
+                <span>${param.card.value}</span>
                 <span>Last 24 Hours</span>
             </div>
         </div>
