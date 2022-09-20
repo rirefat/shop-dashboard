@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Card.css';
 import { AnimateSharedLayout } from 'framer-motion';
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 // import ExpandedCard from '../ExpandedCard/ExpandedCard';
 // import CompactCard from '../CompactCard/CompactCard';
 
@@ -19,16 +21,16 @@ const Card = (props) => {
 
 // Compact Card
 const CompactCard = ({param}) => {
-    const Png = param.png;
-    // console.log(Png);
+    const Png=param.card.png;
+    console.log(Png);
     return (
         <div className='CompactCard'>
             <div className="radialBar">
-                chart
+                <CircularProgressbar value={param.card.barValue} text={`${param.card.barValue}%`}></CircularProgressbar>
             </div>
             <div className="detail">
                 <Png/>
-                <span>${param.value}</span>
+                <span>${param.card.barValue}</span>
                 <span>Last 24 Hours</span>
             </div>
         </div>

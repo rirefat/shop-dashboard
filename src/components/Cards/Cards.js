@@ -11,13 +11,7 @@ const Cards = () => {
                 (card,id)=>{
                     return(
                         <div className="parentContainer">
-                            <Card title={card.title}
-                            color={card.color}
-                            barValue={card.barValue}
-                            value={card.value}
-                            png={card.png}
-                            series={card.series}
-                            ></Card>
+                            <Card card={card}></Card>
                         </div>
                     )
                 }
