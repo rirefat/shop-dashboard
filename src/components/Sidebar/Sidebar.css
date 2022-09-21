@@ -125,7 +125,7 @@
 }
 
 /* Tablets */
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .menuItem>span{
       display: none;
     }
@@ -133,8 +133,8 @@
       display: none;
     }
   }
-   */
-  /* @media screen and (max-width: 768px) {
+  
+  @media screen and (max-width: 768px) {
     .sidebar{
       position: fixed;
       z-index: 9;
@@ -166,4 +166,4 @@
     .close{
       left: -60%;
     }
-  } */
+  }
