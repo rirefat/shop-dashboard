@@ -1,0 +1,29 @@
+.Updates{
+    width: 85%;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.update{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.update img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.noti-info{
+    margin-bottom: 0.5rem;
+}
+
+.CustomerName{
+    font-weight: bold;
+    margin-right: 6px;
+}

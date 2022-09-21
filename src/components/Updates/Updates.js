@@ -9,6 +9,13 @@ const Updates = () => {
                 UpdatesData.map((update)=>{return(
                     <div className="update">
                         <img src={update.img} alt="Customer Img" />
+                        <div className="noti">
+                            <div className='noti-info'>
+                                <span className='CustomerName'>{update.name}</span>
+                                <span>{update.noti}</span>
+                            </div>
+                            <span>{update.time}</span>
+                        </div>
                     </div>
                 )})
             }
