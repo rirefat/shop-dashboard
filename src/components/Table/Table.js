@@ -46,7 +46,9 @@ export default function BasicTable() {
                     </TableCell>
                     <TableCell align="left">{row.trackingId}</TableCell>
                     <TableCell align="left">{row.date}</TableCell>
-                    <TableCell align="left">{row.status}</TableCell>
+                    <TableCell align="left">
+                        <span className={row.status}>{row.status}</span>
+                    </TableCell>
                     <TableCell align="left">Detail</TableCell>
                     </TableRow>
                 ))}
